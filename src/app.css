@@ -1,0 +1,8 @@
+.App {
+  background: #15202b;
+  color: #fff;
+  min-height: 100vh;
+  margin: auto;
+  padding: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

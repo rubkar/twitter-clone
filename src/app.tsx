@@ -1,5 +1,13 @@
-import "./app.css";
+import * as React from 'react';
+import './app.css';
+import { LeftPane } from './components/leftPane/leftPane';
 
-export function App() {
-  return <></>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <LeftPane />
+    </div>
+  );
+};
+
+export default App;
