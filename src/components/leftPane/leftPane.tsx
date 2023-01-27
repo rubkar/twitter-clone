@@ -20,35 +20,35 @@ export const LeftPane = () => {
 
       <div className="navigation-buttons">
         <HomeOutlinedIcon />
-        Home
+        <div className="btn-text">Home</div>
       </div>
       <div className="navigation-buttons">
         <TagRoundedIcon />
-        Review
+        <div className="btn-text">Review</div>
       </div>
       <div className="navigation-buttons">
         <NotificationsNoneOutlinedIcon />
-        Notifications
+        <div className="btn-text">Notifications</div>
       </div>
       <div className="navigation-buttons">
         <EmailOutlinedIcon />
-        Messages
+        <div className='btn-text'>Messages</div>
       </div>
       <div className="navigation-buttons">
         <BookmarkBorderOutlinedIcon />
-        Bookmarks
+        <div className='btn-text'>Bookmarks</div>
       </div>
       <div className="navigation-buttons">
         <FeaturedPlayListOutlinedIcon />
-        Lists
+        <div className='btn-text'>Lists</div>
       </div>
       <div className="navigation-buttons">
         <PersonOutlineOutlinedIcon />
-        Profile
+        <div className='btn-text'>Profile</div>
       </div>
       <div className="navigation-buttons">
         <MoreHorizOutlinedIcon />
-        More
+        <div className='btn-text'>More</div>
       </div>
     </div>
   );

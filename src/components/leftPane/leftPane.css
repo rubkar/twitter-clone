@@ -1,20 +1,31 @@
 .left-pane-wrapper {
   padding-left: 300px;
   padding-top: 1px;
+  padding-right: 10px;
+  height: 100vh;
   font-size: large;
+  border-right: 0.1rem solid rgb(56,68,77);
+  max-width: 31vh;
+  display: block;
 }
 
 .navigation-buttons {
-  padding: 15px;
-  margin-top: 20px;
+  padding: 12px;
+  margin-top: 15px;
   font-family: sans-serif;
   font: bold;
+  max-width: max-content; 
+  justify-content: center;
   border-radius: 25px;
-  max-width: 125px;
   display: flex;
   justify-content: space-between;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.btn-text {
+  padding-top: 2px;
+  padding-left: 5px;
 }
 
 .navigation-buttons:hover {
