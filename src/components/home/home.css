@@ -1,12 +1,58 @@
-.home-content-wrapper{
-   display: block;
-   padding-left: 16px;
-   font-size: 21px;
-   font-weight:bold;
-   width: 32vh;
-
+.home-content-wrapper {
+  display: block;
+  padding-top: 12.5px;
+  font-size: 21px;
+  font-weight: bold;
+  width: 65vh;
+  font-family: inherit;
 }
-.navigation-panel{
-    display: flex;
-    
+
+.home-button {
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.navigation-panel {
+  display: flex;
+  line-height: 2vh;
+  margin-top: 13px;
+  border-bottom: 0.1rem solid rgb(56, 68, 77);
+}
+
+.for-you-wrapper {
+  display: flex;
+  padding-top: 2vh;
+  justify-content: center;
+  width: 50%;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.for-you-wrapper:hover {
+  background: rgb(247, 249, 249, 0.1);
+}
+
+.fy-button {
+  display: inline;
+}
+
+.selector-status {
+  margin-top: 1.5vh;
+  height: 4px;
+  background-color: rgb(29, 155, 240);
+  border-radius: 2vh;
+}
+
+.following {
+  display: flex;
+  padding: 2vh 0 2vh 0;
+  width: 50%;
+  justify-content: center;
+  color: rgb(139, 152, 165);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.following:hover {
+  background: rgb(247, 249, 249, 0.1);
 }

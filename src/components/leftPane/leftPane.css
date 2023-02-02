@@ -2,8 +2,8 @@
   padding-left: 36vh;
   padding-right: 10px;
   font-size: 21px;
-  max-width: 31vh;
-  display: block;
+  width: 31vh;
+  display: inline-flexbox;
 }
 
 .navigation-buttons {

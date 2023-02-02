@@ -8,7 +8,12 @@ export const HomeContent = () => {
       <div className="top-bar-wrapper">
         <div className="home-button">Home</div>
         <div className="navigation-panel">
-          <div className="for-you">For you</div>
+          <div className="for-you-wrapper">
+            <div className="fy-button">
+            <span>For you</span>
+            <div className="selector-status"></div>
+            </div>
+          </div>
           <div className="following">Following</div>
         </div>
       </div>
