@@ -17,14 +17,13 @@ export const LeftPane = () => {
       <div className="navigation-home">
         <TwitterIcon />
       </div>
-
       <div className="navigation-buttons">
         <HomeOutlinedIcon />
         <div className="btn-text">Home</div>
       </div>
       <div className="navigation-buttons">
         <TagRoundedIcon />
-        <div className="btn-text">Review</div>
+        <div className="btn-text">Explore</div>
       </div>
       <div className="navigation-buttons">
         <NotificationsNoneOutlinedIcon />
@@ -32,23 +31,40 @@ export const LeftPane = () => {
       </div>
       <div className="navigation-buttons">
         <EmailOutlinedIcon />
-        <div className='btn-text'>Messages</div>
+        <div className="btn-text">Messages</div>
       </div>
       <div className="navigation-buttons">
         <BookmarkBorderOutlinedIcon />
-        <div className='btn-text'>Bookmarks</div>
+        <div className="btn-text">Bookmarks</div>
       </div>
       <div className="navigation-buttons">
         <FeaturedPlayListOutlinedIcon />
-        <div className='btn-text'>Lists</div>
+        <div className="btn-text">Lists</div>
       </div>
       <div className="navigation-buttons">
         <PersonOutlineOutlinedIcon />
-        <div className='btn-text'>Profile</div>
+        <div className="btn-text">Profile</div>
       </div>
       <div className="navigation-buttons">
         <MoreHorizOutlinedIcon />
-        <div className='btn-text'>More</div>
+        <div className="btn-text">More</div>
+      </div>
+      <div className="tweet-button">
+        <div className="btn-text">Tweet</div>
+      </div>
+      <div className="account-bar">
+        <img
+          src="https://pbs.twimg.com/profile_images/1621111347168661510/ohqli9_A_normal.jpg"
+          alt="img"
+          className="profile-pic"
+        />
+        <div className="account-bar-left">
+          <div className="name">Shader X</div>
+          <div className="nickname">@ShaderCXZ</div>
+        </div>
+        <div className="account-bar-right">
+          <MoreHorizOutlinedIcon />
+        </div>
       </div>
     </div>
   );

@@ -1,3 +1,12 @@
 .home-content-wrapper{
-    display: block;
+   display: block;
+   padding-left: 16px;
+   font-size: 21px;
+   font-weight:bold;
+   width: 32vh;
+
+}
+.navigation-panel{
+    display: flex;
+    
 }

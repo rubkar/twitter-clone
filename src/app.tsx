@@ -6,11 +6,9 @@ import { HomeContent } from './components/home/home';
 const App = () => {
   return (
     <div className="App">
-      <div>
-        <LeftPane />
-      </div>
-      <div>
-        <HomeContent />
+      <div className="wrapper">
+        <div className="left-pane"><LeftPane /></div>
+        <div className="home-content"><HomeContent /></div>
       </div>
     </div>
   );
