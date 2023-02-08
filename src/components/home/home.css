@@ -1,3 +1,7 @@
+::placeholder {
+  color: rgb(139, 152, 166);
+}
+
 .home-content-wrapper {
   display: block;
   padding-top: 12.5px;
@@ -55,4 +59,95 @@
 
 .following:hover {
   background: rgb(247, 249, 249, 0.1);
+}
+
+.account-posting-bar {
+  position: relative;
+  padding-top: 9px;
+  padding-left: 16px;
+}
+
+.profile-picture {
+  border-radius: 3vh;
+  cursor: pointer;
+}
+
+.textfield {
+  width: 90%;
+}
+
+.post-input {
+  margin-left: 1.5vh;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  position: absolute;
+  width: 55vh;
+  height: 5vh;
+  background: transparent;
+  font-size: larger;
+  font-family: inherit;
+}
+input,
+select,
+textarea {
+  color: white;
+}
+
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.action-icons-wraper {
+  display: flex;
+  color: rgb(29, 155, 240);
+  margin-top: 2vh;
+  margin-left: 6.5vh;
+  max-width: 23vh;
+  justify-content: space-between;
+}
+
+.action-icons {
+  transition: 0.3s;
+  border-radius: 30px;
+  padding: 7px 8px 4px 8px;
+  cursor: pointer;
+  margin-bottom: 1vh;
+}
+
+.action-icons:hover {
+  background-color: rgb(29, 155, 240, 0.1);
+}
+
+.post-tweet-button {
+  background: rgb(29, 155, 240);
+  padding: 7px 13px 5px 13px;
+  margin-top: 18px;
+  margin-right: 1.5vh;
+  margin-bottom: 1vh;
+  font-family: sans-serif;
+  font: bold;
+  max-width: max-content;
+  justify-content: center;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.post-tweet-button:hover {
+  background: rgb(26, 140, 216);
+}
+
+.post-btn-text {
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: medium;
+  color: white;
+}
+
+.tweet-post-bar{
+  border-bottom: 0.1rem solid rgb(56, 68, 77);
 }

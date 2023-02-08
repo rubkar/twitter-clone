@@ -1,8 +1,8 @@
 .left-pane-wrapper {
   padding-left: 36vh;
-  padding-right: 10px;
+  padding-right: 5px;
   font-size: 21px;
-  width: 31vh;
+  width: 27.5vh;
   display: inline-flexbox;
 }
 
@@ -81,21 +81,21 @@
   background: rgb(247, 249, 249, 0.1);
 }
 
-.profile-pic{
+.profile-pic {
   border-radius: 5vh;
 }
 
-.account-bar-left{
+.account-bar-left {
   margin-left: 1vh;
 }
-.name{
+.name {
   font-size: 15px bold;
   font-weight: bold;
   margin-bottom: 4px;
 }
-.nickname{
-  color: rgb(139,152,166);
+.nickname {
+  color: rgb(139, 152, 166);
 }
 .account-bar-right {
-  margin: 10px 0px 0px 65px;
+  margin: 10px 0px 0px 60px;
 }
