@@ -61,6 +61,18 @@ export const HomeContent = () => {
           </div>
         </div>
       </div>
+      <a
+        class="twitter-timeline"
+        data-theme="dark"
+        href="https://twitter.com/SpaceX?ref_src=twsrc%5Etfw"
+      >
+      
+      </a>{' '}
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charSet="utf-8"
+      ></script>
     </div>
   );
 };
