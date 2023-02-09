@@ -10,27 +10,19 @@ import { CircularProgress } from '@mui/material';
 import axios from 'axios';
 
 export const HomeContent = () => {
-  // ASK NAREK ABOUT THIS AXIOS STUFF AND importing the loading spinner
-  // const [twitterTimeline, setTwitterTimeline] = useState(null);
-  // const [loading, setLoading] = useState(false);
+  const [loaded, setLoaded] = useState(false);
 
-  // const twitterFunction = async () => {
-  //   try {
-  //     const data = await axios
-  //       .get(`https://platform.twitter.com/widgets.js`)
-  //       .then((res) => {
-  //         console.log(res);
-  //         setTwitterTimeline(res.data);
-  //       });
-  //     setLoading(true);
-  //   } catch (e) {
-  //     console.log(e);
-  //   }
-  // };
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoaded(true);
+    }, 5000);
 
-  // useEffect(() => {
-  //   twitterFunction();
-  // }, []);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
+  console.log(loaded);
   return (
     <div className="home-content-wrapper">
       <div className="top-bar-wrapper">
@@ -85,14 +77,12 @@ export const HomeContent = () => {
         </div>
       </div>
       <div className="timeline-wrapper">
-        {/* {loading ? twitterTimeline : <CircularProgress />} */}
-
+        {!loaded && <div className="loading-circle"><CircularProgress /></div>}
         <a
-          class="twitter-timeline"
+          className="twitter-timeline"
           data-theme="dark"
           href="https://twitter.com/SpaceX?ref_src=twsrc%5Etfw"
         ></a>
-        {<CircularProgress />}
         <script
           async
           src="https://platform.twitter.com/widgets.js"

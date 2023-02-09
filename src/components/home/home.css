@@ -157,3 +157,13 @@ textarea {
 .tweet-post-bar {
   border-bottom: 0.1rem solid rgb(56, 68, 77);
 }
+
+.loading-circle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.twitter-timeline {
+  background-color: #000;
+}
