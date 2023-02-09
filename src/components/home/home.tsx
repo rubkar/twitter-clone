@@ -1,4 +1,4 @@
-import react from 'react';
+import react, { useState, useEffect } from 'react';
 import './home.css';
 import InsertPhotoOutlinedIcon from '@mui/icons-material/InsertPhotoOutlined';
 import GifBoxOutlinedIcon from '@mui/icons-material/GifBoxOutlined';
@@ -6,8 +6,31 @@ import BallotOutlinedIcon from '@mui/icons-material/BallotOutlined';
 import SentimentSatisfiedOutlinedIcon from '@mui/icons-material/SentimentSatisfiedOutlined';
 import PendingActionsOutlinedIcon from '@mui/icons-material/PendingActionsOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import { CircularProgress } from '@mui/material';
+import axios from 'axios';
 
 export const HomeContent = () => {
+  // ASK NAREK ABOUT THIS AXIOS STUFF AND importing the loading spinner
+  // const [twitterTimeline, setTwitterTimeline] = useState(null);
+  // const [loading, setLoading] = useState(false);
+
+  // const twitterFunction = async () => {
+  //   try {
+  //     const data = await axios
+  //       .get(`https://platform.twitter.com/widgets.js`)
+  //       .then((res) => {
+  //         console.log(res);
+  //         setTwitterTimeline(res.data);
+  //       });
+  //     setLoading(true);
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   twitterFunction();
+  // }, []);
   return (
     <div className="home-content-wrapper">
       <div className="top-bar-wrapper">
@@ -61,18 +84,21 @@ export const HomeContent = () => {
           </div>
         </div>
       </div>
-      <a
-        class="twitter-timeline"
-        data-theme="dark"
-        href="https://twitter.com/SpaceX?ref_src=twsrc%5Etfw"
-      >
-      
-      </a>{' '}
-      <script
-        async
-        src="https://platform.twitter.com/widgets.js"
-        charSet="utf-8"
-      ></script>
+      <div className="timeline-wrapper">
+        {/* {loading ? twitterTimeline : <CircularProgress />} */}
+
+        <a
+          class="twitter-timeline"
+          data-theme="dark"
+          href="https://twitter.com/SpaceX?ref_src=twsrc%5Etfw"
+        ></a>
+        {<CircularProgress />}
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+        ></script>
+      </div>
     </div>
   );
 };

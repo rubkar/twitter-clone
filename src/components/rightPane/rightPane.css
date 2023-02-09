@@ -1,0 +1,11 @@
+.right-pane-wrapper{
+    margin-left:131vh;
+    font-size: 21px;
+    width: 74vh;
+    display: inline-flexbox;
+    position: fixed;
+    background-color: #000;
+    border-left: 0.01rem solid rgb(56, 68, 77);
+    height: 100vh;
+   
+  }

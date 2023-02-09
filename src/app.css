@@ -11,13 +11,16 @@
 
 .left-pane{
   display:inline-block;
-  border-right: 0.1rem solid rgb(56,68,77);
   height: 100vh;
 }
 
 .home-content{
   display:inline-block;
-  border-right: 0.1rem solid rgb(56,68,77);
   position: absolute;
+  height: 100vh;
+}
+
+.right-pane{
+  display:inline-block;
   height: 100vh;
 }

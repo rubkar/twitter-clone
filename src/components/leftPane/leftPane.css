@@ -2,10 +2,11 @@
   padding-left: 36vh;
   padding-right: 5px;
   font-size: 21px;
-  width: 29.5vh;
+  width: 29.3vh;
   display: inline-flexbox;
   position: fixed;
   background-color: #000;
+  border-right: 0.01rem solid rgb(56, 68, 77);
 }
 
 .navigation-buttons {

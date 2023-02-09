@@ -2,6 +2,7 @@ import * as React from 'react';
 import './app.css';
 import { LeftPane } from './components/leftPane/leftPane';
 import { HomeContent } from './components/home/home';
+import { RightPane } from './components/rightPane/rightPane';
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <div className="wrapper">
         <div className="left-pane"><LeftPane /></div>
         <div className="home-content"><HomeContent /></div>
+        <div className="right-pane"><RightPane /></div>
       </div>
     </div>
   );

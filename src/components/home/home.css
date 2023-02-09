@@ -9,19 +9,23 @@
   font-weight: bold;
   width: 65vh;
   font-family: inherit;
-  margin-left: 100%;
-  border-right: 0.1rem solid rgb(56, 68, 77);
+  position: absolute;
+  margin-left: 66vh;
+  height: 100vh;
+  background-color: #000;
 }
 
 .home-button {
   padding-left: 16px;
   cursor: pointer;
+  
 }
 
 .navigation-panel {
   display: flex;
   line-height: 2vh;
   margin-top: 13px;
+  
   border-bottom: 0.1rem solid rgb(56, 68, 77);
 }
 
@@ -150,6 +154,6 @@ textarea {
   color: white;
 }
 
-.tweet-post-bar{
+.tweet-post-bar {
   border-bottom: 0.1rem solid rgb(56, 68, 77);
 }
