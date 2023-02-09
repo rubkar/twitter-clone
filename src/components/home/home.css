@@ -9,6 +9,8 @@
   font-weight: bold;
   width: 65vh;
   font-family: inherit;
+  margin-left: 100%;
+  border-right: 0.1rem solid rgb(56, 68, 77);
 }
 
 .home-button {

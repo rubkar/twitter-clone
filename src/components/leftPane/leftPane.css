@@ -2,8 +2,10 @@
   padding-left: 36vh;
   padding-right: 5px;
   font-size: 21px;
-  width: 27.5vh;
+  width: 29.5vh;
   display: inline-flexbox;
+  position: fixed;
+  background-color: #000;
 }
 
 .navigation-buttons {
@@ -68,7 +70,8 @@
   display: flex;
   justify-content: space-between;
   bottom: 0;
-  position: absolute;
+  position: sticky;
+  margin-top: 28vh;
   margin-bottom: 15px;
   font-size: 15px;
   padding: 11px 11px 11px 11px;
