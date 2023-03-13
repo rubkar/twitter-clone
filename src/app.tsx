@@ -1,4 +1,3 @@
-import * as React from 'react';
 import './app.css';
 import { LeftPane } from './components/leftPane/leftPane';
 import { HomeContent } from './components/home/home';
